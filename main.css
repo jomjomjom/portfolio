@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:#fff;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #002155;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+header .nav a{
+    color: #002155;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    border-radius: 25px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+header .nav a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .nav a:hover{
+    background: #c66b3d;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    color: #002155;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.content .info h2 span{
+    color:#002155;
+    font-size: 30px;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1px;
+    margin-bottom: 1px;
+}
+
+.content .info p{
+    color: #002115;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 200;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.content .book-now a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+    transition-property: background;
+    position: relative;
+}
+
+.content .book-now a:hover{
+    background: #0202ff;
+}
+
+.services {
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:#1d63dc;
+    background-size: cover;
+    background-position: center;
+}
+
+.services h2{
+    color: #FFF;
+    font-size: 60px;
+    text-transform: none;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-top: 2%;
+}
+
+footer {
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.footer-main h2{
+    color: #002155;
+    font-size: 45px;
+    text-transform: none;
+    text-align: left;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding-top: 20%;
+    margin-bottom: 10px;
+}
+
+.footer-main h2 span{
+    color: #888888;
+    font-size: 25px;
+    text-transform: none;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+
+footer .socmed-icons p{
+    color: #002155;
+    background: no-repeat center center;
+    vertical-align: middle;
+    text-align: left;
+    height: 25px;
+    padding-top: 10%;
+}
+
+footer .socmed-icons a{
+    position: relative;
+    color: #002155;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+footer .socmed-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+footer .socmed-icons a:hover{
+    transform: scale(1.5);
+}
+
+footer p{
+    color: #888888;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: bottom;
+
+}
